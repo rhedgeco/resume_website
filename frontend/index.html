@@ -3,8 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Ryan Hedgecock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link href="data/css/material-icons.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="data/css/materialize.css" media="screen,projection"/>
+    <script src="data/js/jquery-3.4.1.min.js"></script>
+    <script src="data/js/materialize.min.js"></script>
 </head>
-<body>
-    Placeholder! WOW!
+<body class="blue-grey darken-4">
+<nav class="nav-extended pink">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Ryan Hedgecock</a>
+    </div>
+    <div class="nav-content">
+        <ul class="tabs tabs-fixed-width pink">
+            <li class="tab"><a class="active white-text" href="#about">About</a></li>
+            <li class="tab"><a class="white-text" href="#education">Education</a></li>
+            <li class="tab"><a class="white-text" href="#experience">Experience</a></li>
+            <li class="tab"><a class="white-text" href="#projects">Projects</a></li>
+        </ul>
+    </div>
+</nav>
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">JavaScript</a></li>
+</ul>
+
+<div id="about" class="col s12 white-text">
+    <div style="padding: 80px">
+        <div class="center-align">
+            <img src="data/images/profile.jpg" class="circle" style="width: 200px" alt="profile">
+        </div>
+        <h1 class="center-align">About</h1>
+        <p id="about-text" class="flow-text">
+            Ryan has been head-over-heels in love with computers and software since he was 10 years old. He started
+            using tools like Blender and Game Maker to kickstart his interest in software engineering. Writing many
+            (maybe not so good) games with game maker, he began to understand the basics of game design and code design.
+            As he grew older, his interests only expanded from there into every technology he could get his hands on.
+            Ryan is a Software Engineer working in Silicon Valley at a Machine Learning startup called Dilili Labs. He
+            is the Product Manager and Lead Engineer for a modular synthetic data platform.<br><br> He taught
+            programming classes at a company names WhizKidz for a number of years passing down his love for beautiful
+            code.<br><br>
+        </p>
+    </div>
+</div>
+<div id="education" class="col s12">Test 2</div>
+<div id="experience" class="col s12">Test 3</div>
+<div id="projects" class="col s12">Test 4</div>
+
+<script>M.AutoInit();</script> <!-- Materialize Init -->
 </body>
 </html>
